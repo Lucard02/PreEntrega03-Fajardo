@@ -4,6 +4,69 @@
     box-sizing: border-box;
 }
 
+.tituloCafe
+{
+    margin-top: 140px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.cafe{
+    margin-top: 50px;
+    display:grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 450px) ; 
+    grid-template-rows: repeat(2,300px);
+    grid-template-areas: 
+    "div1 div2 "
+    "div3 div4 "
+    ;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
+    row-gap: 25px;
+    column-gap: 50px;
+}
+.cafeFoto1 {
+    grid-area: div1;
+}
+.cafeFoto1 img
+{ border-radius: 40px;
+object-fit: cover;}
+
+.cafeTexto1 {
+    grid-area: div2;
+    background-color: #3615007e;
+    border-radius: 40px;
+}
+.cafeFoto2 {
+    grid-area: div4;    
+    border-radius: 40px;
+    object-fit: cover;
+}
+.cafeFoto2 img
+{border-radius: 40px;
+height: 100%;}
+
+.cafeTexto2 {
+    grid-area: div3;
+    background-color: #3615007e;
+    border-radius: 40px;
+}
+.cafeTexto1 p
+{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.cafeTexto2 p
+{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .Menu div button
 {
     background-color:#CC9544;
@@ -18,27 +81,7 @@
     width: 120px;
     object-fit: cover;
 }
-/*
-.Menu
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-}*/
-/*
-.primeraColumnaMenu
-{
-    display: flex;
-    flex-direction: column;
-}*/
 
-
-.mainCafe section img
-{
-    height: 9.375rem;
-    width: 9.375rem;
-}
 .bodyIndex
 {
     background-image:url(../assets/photo-1579546937949-2f37293c1ea3.jpg);
@@ -57,7 +100,8 @@ body
 }
 .tituloMenu
 {
-    padding-left: 860px;
+    padding-top: 40px;
+    padding-left: 640px;
 }
 .Menu
 {
@@ -238,6 +282,7 @@ h1
     margin-top: 100px;
     color: white;
     font-size: 60px;
+    align-items: center;
 }
 h2
 {
@@ -257,46 +302,6 @@ h2
     padding-left: 60px;
 }
 
-.mainCafe
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-
-}
-
-.mainCafe div
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    background-color:#361500a4 ;
-    border-radius: 40px;
-    /*height: 80%;
-    width: 90%;*/
-}
-
-.mainCafe div img
-{
-    height: 220px;
-    width: 1200px;
-    border-radius: 40px;
-    background-position: center;
-    margin: 20px 10px 20px 10px;
-}
-.mainCafe div p 
-{
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
 .contacto 
 {
     display: flex;
@@ -308,7 +313,7 @@ h2
 
 .contacto h1
 {
-    margin-top: 90px;
+    margin-top: 150px;
     padding-bottom: 0px;
     padding-left: 1.875rem;
 }
