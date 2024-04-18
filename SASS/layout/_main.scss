@@ -1,0 +1,313 @@
+.mainIndex
+{
+    .contenidoIndex
+    {
+        h1
+        {
+            margin-top: 20%;
+            color: white;
+            font-size: 25px;
+            align-items: center;
+            padding: 3% 10% 3% 10%;
+        }
+    }
+}
+
+.nuestraHistoria 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    h1
+        {
+            background-color:#361500a4 ;
+            border-radius: 40px;
+            margin-top: 5%;
+            margin-bottom: 7%;
+            color: white;
+            font-size: 20px;
+            align-items: center;
+            padding: 3% 5% 3% 5%;
+            text-align: center;
+        }
+    div 
+    {
+        background-color: #361500a4;
+        border-radius: 40px;
+        height: 60vh;
+        width: 40vh;
+        text-align: center;
+        padding: 20px;
+        img
+        {
+            height: 117px;
+            width: 179px;
+            border-radius: 40px;
+            margin-top: 10%;
+            margin-bottom: 3vh;
+        }
+        p
+        {
+            color: white;
+            font-size: 11px;
+            text-align: justify;
+            display: inline-block;
+        }
+    }
+}
+
+.mainCafe
+{
+    .tituloCafe
+    {
+        text-align: center;
+        h1
+        {
+            background-color:#361500a4 ;
+            border-radius: 40px;
+            margin-top: 5%;
+            margin-bottom: 7%;
+            color: white;
+            font-size: 20px;
+            align-items: center;
+            padding: 3% 5% 3% 5%;
+        }
+    }
+    .cafe
+    {
+        margin-top: 5%;
+        display:grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(2, 150px) ; 
+        grid-template-rows: repeat(2,163px);
+        grid-template-areas: 
+        "div1 div2 "
+        "div3 div4 "
+        ;
+        justify-content: center;
+        align-content: center;
+        column-gap: 5%;
+        row-gap: 5%;
+        .cafeFoto1 
+        {
+            grid-area: div1;
+            border-radius: 40px;
+            object-fit: cover;
+            img
+            { 
+                border-radius: 40px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .cafeFoto2 
+        {
+            grid-area: div4;    
+            border-radius: 40px;
+            object-fit: cover;
+            img
+            {   
+                border-radius: 40px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .cafeTexto1 
+        {
+            grid-area: div2;
+            background-color: #3615007e;
+            border-radius: 40px;
+            p
+            {
+                font-size: 9px;
+                text-align:left;
+                margin-top: 10%;
+                margin-left: 10%;
+                color: white;
+            }
+        }
+        .cafeTexto2 
+        {
+            grid-area: div3;
+            background-color: #3615007e;
+            border-radius: 40px;
+            p
+            {
+                font-size: 9px;
+                text-align:left;
+                margin-top: 10%;
+                margin-left: 10%;
+                color: white;
+            }   
+        }
+    }
+}
+
+.mainContacto
+{
+    .contacto 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:left;
+        h1
+        {
+            border-radius: 40px;
+            margin-top: 11%;
+            margin-bottom: 7%;
+            color: white;
+            font-size: 13px;
+            align-items: center;
+            padding: 3% 5% 3% 5%;
+        }
+        .mapa
+        {
+            height: 180px;
+            width: 80%;
+            padding-top: 0;
+        }
+    }
+    .iconosCt
+    {
+        padding-top: 15%;
+        padding-left: 30px;
+        img
+        {
+            height: 23px;
+            width: 26px;
+            background-color: white;
+            border-radius: .625rem;
+        }
+        div 
+        {
+            display: flex;
+            gap: 10px
+        }
+        p
+        {
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.mainMenu
+{
+    .tituloMenu
+    {
+        h1
+        {
+            border-radius: 40px;
+            margin-top:0px;
+            margin-bottom: 0px;
+            color: white;
+            font-size: 13px;
+            align-items: center;
+            text-align: center;
+            padding: 3% 5% 3% 5%;
+        }
+    }
+    .Menu
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        .primeraColumnaMenu
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            div
+            {
+                gap:40px;
+                display: flex;;
+                color: white;
+                font-size: 15px;
+                margin-bottom: 0px;
+                align-items: center;
+                img
+                {
+                    border-radius: 50%;
+                    height: 43px;
+                    width: 63px;
+                    object-fit: cover;
+                }
+                section
+                {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    align-items: center;
+                    padding: 5% 5% 5% 5%;
+                    p
+                    {
+                        margin-bottom: 0px;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    button
+                    {
+                        background-color:#CC9544;
+                        padding: 0px 10px 0px 10px;
+                        width: 56px;
+                        color: white;
+                        border-radius: .625rem;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+        .segundaColumnaMenu
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            div
+            {
+                gap:40px;
+                display: flex;;
+                color: white;
+                font-size: 15px;
+                margin-bottom: 0px;
+                align-items: center;
+                img
+                {
+                    border-radius: 50%;
+                    height: 43px;
+                    width: 63px;
+                    object-fit: cover;
+                }
+                section
+                {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    align-items: center;
+                    padding: 5% 5% 5% 5%;
+                    p
+                    {
+                        margin-bottom: 0px;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    button
+                    {
+                        background-color:#CC9544;
+                        padding: 0px 10px 0px 10px;
+                        width: 56px;
+                        color: white;
+                        border-radius: .625rem;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
