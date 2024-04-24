@@ -5,7 +5,7 @@
         h1
         {
             margin-top: 20%;
-            color: white;
+            color: map-get($colores ,colorTituloIndex);
             font-size: 25px;
             align-items: center;
             padding: 3% 10% 3% 10%;
@@ -15,17 +15,16 @@
 
 .nuestraHistoria 
 {
-    display: flex;
-    flex-direction: column;
+    @include flex(column,center,center);
     text-align: center;
-    align-items: center;
+    padding-bottom: 60px;
     h1
         {
-            background-color:#361500a4 ;
+            background-color:$backgroudColor ;
             border-radius: 40px;
             margin-top: 5%;
             margin-bottom: 7%;
-            color: white;
+            color: map-get($colores ,colorTitulo);
             font-size: 20px;
             align-items: center;
             padding: 3% 5% 3% 5%;
@@ -33,7 +32,7 @@
         }
     div 
     {
-        background-color: #361500a4;
+        background-color:$backgroudColor;
         border-radius: 40px;
         height: 60vh;
         width: 40vh;
@@ -49,8 +48,8 @@
         }
         p
         {
-            color: white;
-            font-size: 11px;
+            color: map-get($colores ,colorTexto);
+            font-size: 1ch;
             text-align: justify;
             display: inline-block;
         }
@@ -64,11 +63,11 @@
         text-align: center;
         h1
         {
-            background-color:#361500a4 ;
+            background-color:$backgroudColor ;
             border-radius: 40px;
             margin-top: 5%;
             margin-bottom: 7%;
-            color: white;
+            color: map-get($colores ,colorTitulo);
             font-size: 20px;
             align-items: center;
             padding: 3% 5% 3% 5%;
@@ -117,29 +116,31 @@
         .cafeTexto1 
         {
             grid-area: div2;
-            background-color: #3615007e;
+            background-color: $backgroudColor;
             border-radius: 40px;
             p
             {
-                font-size: 9px;
+                font-size: 1ch;
+                line-height: 200%;
                 text-align:left;
                 margin-top: 10%;
                 margin-left: 10%;
-                color: white;
+                color: map-get($colores ,colorTexto);
             }
         }
         .cafeTexto2 
         {
             grid-area: div3;
-            background-color: #3615007e;
+            background-color: $backgroudColor;
             border-radius: 40px;
             p
             {
-                font-size: 9px;
+                font-size: 1ch;
+                line-height: 200%;
                 text-align:left;
                 margin-top: 10%;
                 margin-left: 10%;
-                color: white;
+                color: map-get($colores ,colorTexto);
             }   
         }
     }
@@ -149,16 +150,14 @@
 {
     .contacto 
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column,center,center);
         text-align:left;
         h1
         {
             border-radius: 40px;
             margin-top: 11%;
             margin-bottom: 7%;
-            color: white;
+            color: map-get($colores ,colorTexto);
             font-size: 13px;
             align-items: center;
             padding: 3% 5% 3% 5%;
@@ -178,7 +177,7 @@
         {
             height: 23px;
             width: 26px;
-            background-color: white;
+            background-color: map-get($colores ,colorTexto);
             border-radius: .625rem;
         }
         div 
@@ -188,7 +187,7 @@
         }
         p
         {
-            color: white;
+            color: map-get($colores ,colorTexto);
             font-size: 15px;
             text-align: center;
             margin-bottom: 0px;
@@ -205,7 +204,7 @@
             border-radius: 40px;
             margin-top:0px;
             margin-bottom: 0px;
-            color: white;
+            color: map-get($colores ,colorTexto);
             font-size: 13px;
             align-items: center;
             text-align: center;
@@ -214,10 +213,7 @@
     }
     .Menu
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include flex(column,center,center);
         gap: 10px;
         .primeraColumnaMenu
         {
@@ -228,7 +224,7 @@
             {
                 gap:40px;
                 display: flex;;
-                color: white;
+                color: map-get($colores ,colorTexto);
                 font-size: 15px;
                 margin-bottom: 0px;
                 align-items: center;
@@ -257,7 +253,7 @@
                         background-color:#CC9544;
                         padding: 0px 10px 0px 10px;
                         width: 56px;
-                        color: white;
+                        color: map-get($colores ,colorTexto);
                         border-radius: .625rem;
                         font-size: 8px;
                     }
@@ -273,7 +269,7 @@
             {
                 gap:40px;
                 display: flex;;
-                color: white;
+                color: map-get($colores ,colorTexto);
                 font-size: 15px;
                 margin-bottom: 0px;
                 align-items: center;
@@ -302,7 +298,7 @@
                         background-color:#CC9544;
                         padding: 0px 10px 0px 10px;
                         width: 56px;
-                        color: white;
+                        color: map-get($colores ,colorTexto);
                         border-radius: .625rem;
                         font-size: 8px;
                     }

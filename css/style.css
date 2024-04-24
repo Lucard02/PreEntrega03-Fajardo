@@ -32,14 +32,16 @@ body {
 .nuestraHistoria {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  align-items: center; }
+  padding-bottom: 60px; }
   .nuestraHistoria h1 {
     background-color: #361500a4;
     border-radius: 40px;
     margin-top: 5%;
     margin-bottom: 7%;
-    color: white;
+    color: #CC9544;
     font-size: 20px;
     align-items: center;
     padding: 3% 5% 3% 5%;
@@ -59,7 +61,7 @@ body {
       margin-bottom: 3vh; }
     .nuestraHistoria div p {
       color: white;
-      font-size: 11px;
+      font-size: 1ch;
       text-align: justify;
       display: inline-block; }
 
@@ -70,7 +72,7 @@ body {
     border-radius: 40px;
     margin-top: 5%;
     margin-bottom: 7%;
-    color: white;
+    color: #CC9544;
     font-size: 20px;
     align-items: center;
     padding: 3% 5% 3% 5%; }
@@ -105,20 +107,22 @@ body {
       width: 100%; }
   .mainCafe .cafe .cafeTexto1 {
     grid-area: div2;
-    background-color: #3615007e;
+    background-color: #361500a4;
     border-radius: 40px; }
     .mainCafe .cafe .cafeTexto1 p {
-      font-size: 9px;
+      font-size: 1ch;
+      line-height: 200%;
       text-align: left;
       margin-top: 10%;
       margin-left: 10%;
       color: white; }
   .mainCafe .cafe .cafeTexto2 {
     grid-area: div3;
-    background-color: #3615007e;
+    background-color: #361500a4;
     border-radius: 40px; }
     .mainCafe .cafe .cafeTexto2 p {
-      font-size: 9px;
+      font-size: 1ch;
+      line-height: 200%;
       text-align: left;
       margin-top: 10%;
       margin-left: 10%;
@@ -127,6 +131,7 @@ body {
 .mainContacto .contacto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: left; }
   .mainContacto .contacto h1 {
@@ -172,8 +177,8 @@ body {
 .mainMenu .Menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 10px; }
   .mainMenu .Menu .primeraColumnaMenu {
     display: flex;
@@ -243,7 +248,7 @@ body {
           font-size: 8px; }
 
 footer {
-  background-color: #1c0a00a7;
+  background-color: #1c0a00ac;
   display: flex;
   width: 100%;
   height: 50px;
