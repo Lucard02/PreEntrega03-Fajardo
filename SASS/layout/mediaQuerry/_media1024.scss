@@ -1,0 +1,201 @@
+@media (min-width: 1024px)
+{
+
+    .navbar{
+        height: 110px;
+        img
+        {
+            height: 70px;
+            width: 70px;
+        }
+        a
+        {
+            font-size: 1.5rem;
+        }
+    }
+
+    .mainIndex
+    {
+        .contenidoIndex
+        {
+            h1
+            {
+                font-size: 50px;
+            }
+        }
+        .textoIndex
+        {
+            h2
+            {
+                font-size: 3rem;
+            }    
+            p
+            {
+                
+                margin-left: 100px;
+                margin-right: 100px;
+                padding-bottom: 40px;
+                color: white;            
+                font-size: 1.5rem;
+            }
+            .carousel
+            {
+                .carousel-item 
+                {
+                        img 
+                        {
+                            height: 600px; 
+                        }
+                }
+            }
+        }
+    }
+
+    .mainCafe
+    {
+        .tituloCafe
+        {
+            h1 
+            {
+                font-size: 50px;          
+            }
+        }
+        .seccion1
+        {
+            .textoCafe1
+            {
+                font-size: 2rem;
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            .fotoEstiloDeVida
+            {
+                img
+                {
+                    height: 900px;
+                    width: 70%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .textoCafe2
+        {
+            font-size: 2rem;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .cafe
+        {
+            .cafeTexto1 
+            {
+                p
+                {
+                    font-size: 2rem;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }
+            }
+            .cafeTexto2 
+            {
+                p
+                {
+                    font-size: 2rem;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                }   
+            }
+        }
+    }
+
+    .mainNosotros
+    {
+        h1
+        {
+            font-size: 50px;
+        }
+        .nuestraHistoria 
+        {
+            div 
+            {
+                img
+                {
+                    height: 800px;
+                }
+                p
+                {         
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    padding-bottom: 40px;
+                    color: white;            
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .nuestraHistoria2
+        {
+            p
+            {
+                margin-left: 100px;
+                margin-right: 100px;
+                padding-bottom: 40px;
+                color: white;            
+                font-size: 1.5rem;
+            }
+            img
+            {
+                height: 600px;
+            }
+        }
+    }
+
+    .mainContacto
+    {
+        h1 
+        {
+            font-size: 50px;
+        }
+        .contacto 
+        {
+            h2
+            {
+                font-size: 2.5rem;
+            }
+            p
+            {
+                font-size: 2rem;
+                padding-bottom: 0%;
+            }
+            .mapa
+            {
+                height: 700px; 
+
+            }
+        }
+        .iconosCt
+        {
+            img
+            {
+                height: 60px;
+                width: 60px;
+            }
+            p
+            {
+                font-size: 24px;
+            }
+        }
+    }
+
+    footer{
+    height: 75px;
+    div
+    {
+        
+        img
+        {
+            height:40px;
+            width: 40px;
+        }
+    }
+}
+
+}
